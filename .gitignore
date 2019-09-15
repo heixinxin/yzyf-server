@@ -1,0 +1,9 @@
+.venv/
+.idea
+.DS_Store
+env.py
+flask.pid
+__pycache__/
+.python-version
+Pipfile.lock
+.pytest-cache/

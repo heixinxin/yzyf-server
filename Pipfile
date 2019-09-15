@@ -1,0 +1,17 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple/"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+django = "==2.1.7"
+pymysql = "*"
+djangorestframework = "*"
+pygments = "*"
+django-redis = "==4.10.0"
+pillow = "*"
+
+[requires]
+python_version = "3.5"
