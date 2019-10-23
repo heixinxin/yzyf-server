@@ -29,7 +29,7 @@ urlpatterns = [
     path('my/', include('myapi.urls')),
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
     path('api-token-auth', ObtainAuthTokenFixed.as_view()),
-    path('dist', TemplateView.as_view(template_name="index.html")),
+    path('dist/', TemplateView.as_view(template_name="index.html")),
     # 配置上传文件的访问处理函数
     re_path(r'^media/(?P<path>.*)$', serve, {"document_root": MEDIA_ROOT}),
 ]

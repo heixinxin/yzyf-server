@@ -12,6 +12,7 @@ djangorestframework = "*"
 pygments = "*"
 django-redis = "==4.10.0"
 pillow = "*"
+celery = "==4.1.1"
 
 [requires]
 python_version = "3.5"

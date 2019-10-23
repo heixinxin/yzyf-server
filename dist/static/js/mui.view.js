@@ -1,5 +1,5 @@
 /**
- * <div id="app" class="mui-views">
+ * <div id="apps" class="mui-views">
  <div class="mui-view">
  <div class="mui-navbar">
  </div>
